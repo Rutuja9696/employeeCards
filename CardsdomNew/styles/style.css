@@ -101,4 +101,11 @@ hr {
 .iconContent {
   display: inline;
   padding: 30px;
+  text-decoration: none;
+}
+@media (max-width: 678px) {
+  .footerElements {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
